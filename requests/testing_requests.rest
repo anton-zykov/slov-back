@@ -1,51 +1,46 @@
-POST http://localhost:3003/api/main
+PUT http://localhost:3003/api/main/users/?username=tester
 Content-Type: application/json
 
 {
-  "username": "Тестер 1",
-  "words": [
+  "newWordsIDs": ["64405825b9d1e327cc098010", "64405825b9d1e327cc098011"]
+}
+
+###
+PUT http://localhost:3003/api/main/?username=tester
+Content-Type: application/json
+
+{
+  "userWords": [
+    {"id": "64398f2a97ca5fc7a8a1079f", "userAnswer": "корова"}
+  ]
+}
+
+###
+GET http://localhost:3003/api/main/?username=tester
+
+###
+POST http://localhost:3003/api/main/words
+Content-Type: application/json
+
+{
+  "newWords": [
     {
-      "correctWord": "болото",
-      "incorrectWord": "б-лото",
-      "frequency": 0.3
+      "correctWord": "борьба",
+      "incorrectWord": "б-рьба",
+      "age": 1
     },
     {
-      "correctWord": "корова",
-      "incorrectWord": "к-рова",
-      "frequency": 1.1
-    },
-    {
-      "correctWord": "магазин",
-      "incorrectWord": "м-газин",
-      "frequency": 1.7
+      "correctWord": "ботинок",
+      "incorrectWord": "б-тинок",
+      "age": 2
     }
   ]
 }
 
 ###
-PUT http://localhost:3003/api/main
+POST http://localhost:3003/api/main/users
 Content-Type: application/json
 
 {
-  "username": "Тестер 1",
-  "word": "вагон",
-  "freqChange": -0.1
+  "username": "tester"
 }
-
-###
-PUT http://localhost:3003/api/main
-Content-Type: application/json
-
-{
-  "username": "Тестер 1",
-  "words": [
-    {
-      "correctWord": "вагон",
-      "incorrectWord": "в-гон",
-      "frequency": 3
-    }
-  ]
-}
-
-###
-GET http://localhost:3003/api/main

@@ -10,17 +10,11 @@ module.exports = {
         "ecmaVersion": 14
     },
     "rules": {
-        'semi': [
-            'error',
-            'never'
-        ],
-        'linebreak-style': [
-            'error',
-            'windows'
-        ],
         'no-console': 0,
         'import/order': 0,
         'import/newline-after-import': 0,
         'object-curly-newline': 0,
+        'comma-dangle': 0,
+        'no-underscore-dangle': 0
     }
 };
