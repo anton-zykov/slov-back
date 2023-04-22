@@ -71,29 +71,30 @@ mainRouter.put('/users', async (request, response) => {
   response.status(201).json(savedUser);
 });
 
-/* Checking errors and changing frequencies. */
+/* Checking user answers, changing frequencies, returning results and correct answers. */
 mainRouter.put('/', async (request, response) => {
   const { username } = request.query;
   const { userWords } = request.body; // userWords = [{ userAnswer, id }]
 
-  const frequencyChanges = userWords.map(async (userWord) => {
-    const { correctWord } = await Word.findById(userWord.id).lean();
-    return {
-      id: userWord.id,
-      frequencyChange: correctWord === userWord.userAnswer ? -1 : 5,
-    };
-  });
+  const user = await User.findOne({ username }).populate('words.word');
 
-  const user = await User.findOne({ username });
-  frequencyChanges.forEach((wPromise) => {
-    wPromise.then((w) => {
-      const wordIndex = user.words.findIndex((word) => word.word._id.toString() === w.id);
-      user.words[wordIndex].frequency += w.frequencyChange;
-      if (user.words[wordIndex].frequency < 3) user.words[wordIndex].frequency = 3;
-    });
-  });
-  const savedUser = await user.save();
-  response.json(savedUser);
+  response.json(
+    userWords.map((userWord) => {
+      const currentWord = user.words.find((word) => word.word.id === userWord.id);
+      const correct = currentWord.word.correctWord === userWord.userAnswer;
+
+      currentWord.frequency += correct ? -1 : 5;
+      if (currentWord.frequency < 3) currentWord.frequency = 3;
+
+      return {
+        id: userWord.id,
+        correct,
+        correctWord: currentWord.word.correctWord,
+      };
+    })
+  );
+
+  await user.save();
 });
 
 module.exports = mainRouter;
