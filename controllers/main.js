@@ -32,7 +32,7 @@ mainRouter.get('/', async (request, response) => {
 
   if (all === 'true') response.json(user.words);
   else {
-    response.json(selectTen(user.words.toObject()));
+    response.json(selectTen(user.words));
   }
 });
 
