@@ -16,7 +16,7 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:3003/api/main/?username=tester
+GET http://localhost:3003/api/main/?username=tester&all=true
 
 ###
 POST http://localhost:3003/api/main/words

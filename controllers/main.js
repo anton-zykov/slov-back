@@ -5,7 +5,7 @@ const Word = require('../models/word');
 
 /* Getting user words. */
 mainRouter.get('/', async (request, response) => {
-  const { username, all } = request.query;
+  const { username, all, trainingTimes } = request.query;
 
   const user = await User.findOne({ username }).populate('words.word');
 
@@ -30,7 +30,8 @@ mainRouter.get('/', async (request, response) => {
     return chosenWords;
   };
 
-  if (all === 'true') response.json(user.words);
+  if (trainingTimes === 'true') response.json(user.trainings);
+  else if (all === 'true') response.json(user.words);
   else {
     response.json(selectTen(user.words));
   }
@@ -77,6 +78,7 @@ mainRouter.put('/', async (request, response) => {
   const { userWords } = request.body; // userWords = [{ userAnswer, id }]
 
   const user = await User.findOne({ username }).populate('words.word');
+  user.trainings.unshift({ date: new Date() });
 
   response.json(
     userWords.map((userWord) => {

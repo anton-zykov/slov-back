@@ -18,12 +18,21 @@ const userSchema = new mongoose.Schema({
       },
     },
   ],
+  trainings: [
+    {
+      date: {
+        type: Date,
+        required: true,
+      },
+    },
+  ],
 });
 
 userSchema.set('toJSON', {
   transform: (document, returnedObject) => {
     returnedObject.id = returnedObject._id.toString();
     returnedObject.words.forEach((w) => delete w._id);
+    returnedObject.trainings.forEach((d) => delete d._id);
     delete returnedObject._id;
     delete returnedObject.__v;
   }
