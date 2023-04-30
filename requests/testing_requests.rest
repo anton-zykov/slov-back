@@ -1,8 +1,8 @@
-PUT http://localhost:3003/api/main/users/?username=tester
+PUT http://localhost:3003/api/main/users/?username=tester2
 Content-Type: application/json
 
 {
-  "newWordsIDs": ["64405825b9d1e327cc098010", "64405825b9d1e327cc098011"]
+  "age": 1
 }
 
 ###
