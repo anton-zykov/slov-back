@@ -64,18 +64,18 @@ mainRouter.post('/words', async (request, response) => {
 /* Assigning words to user. */
 mainRouter.put('/users', async (request, response) => {
   const { username } = request.query;
-  const { newWordsIDs, age } = request.body;
+  const { newWordsIDs, age, frequency = 10 } = request.body;
   const user = await User.findOne({ username });
   const ageWords = await Word.find({ age });
 
   if (newWordsIDs) {
     user.words = user.words.concat(newWordsIDs.map((id) => (
-      { word: mongoose.Types.ObjectId(id) }
+      { word: mongoose.Types.ObjectId(id), frequency }
     )));
   }
   if (age) {
     user.words = user.words.concat(ageWords.map((word) => (
-      { word: mongoose.Types.ObjectId(word._id) }
+      { word: mongoose.Types.ObjectId(word._id), frequency }
     )));
   }
   const savedUser = await user.save();
