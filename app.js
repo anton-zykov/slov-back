@@ -19,6 +19,12 @@ mongoose.connect(config.MONGODB_URI)
   });
 
 app.use(cors());
+app.use((req, res, next) => {
+  res.append('Cache-Control', 'no-cache, no-store, must-revalidate');
+  res.append('Pragma', 'no-cache');
+  res.append('Expires', '0');
+  next();
+});
 app.use(express.static('build'));
 app.use(express.json());
 app.use(middleware.requestLogger);
