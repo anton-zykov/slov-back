@@ -1,20 +1,27 @@
 module.exports = {
-    "env": {
-        "browser": true,
-        "commonjs": true,
-        "es2021": true,
-        "jest": true
-    },
-    "extends": ["airbnb", "airbnb/hooks"],
-    "parserOptions": {
-        "ecmaVersion": 14
-    },
-    "rules": {
-        'no-console': 0,
-        'import/order': 0,
-        'import/newline-after-import': 0,
-        'object-curly-newline': 0,
-        'comma-dangle': 0,
-        'no-underscore-dangle': 0
-    }
+  'env': {
+    'node': true,
+    'commonjs': true,
+    'es2021': true,
+  },
+  'extends': 'eslint:recommended',
+  'parserOptions': {
+    'ecmaVersion': 'latest',
+    'sourceType': 'module',
+  },
+  'rules': {
+    'no-console': 'warn',
+    'no-trailing-spaces': 'error',
+    'object-curly-spacing': [
+      'error', 'always'
+    ],
+    'array-bracket-spacing': [
+      'error', 'always'
+    ],
+    'eqeqeq': 'error',
+    'quotes': [
+      'warn', 'single',
+    ],
+    'semi': 'error',
+  }
 };
