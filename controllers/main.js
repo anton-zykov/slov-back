@@ -13,7 +13,7 @@ mainRouter.get('/', async (request, response) => {
     let totalFrequency = words.reduce((sum, word) => sum + word.frequency, 0);
     let currentWords = words;
     const chosenWords = [];
-    for (let i = 1; i <= 10; i += 1) { // 2 should be changed to 10.
+    for (let i = 1; i <= 10; i += 1) {
       const randomFr = Math.floor(Math.random() * totalFrequency + 1);
       let currentFr = 0;
       for (let j = 0; j < currentWords.length; j += 1) {
@@ -32,9 +32,7 @@ mainRouter.get('/', async (request, response) => {
 
   if (trainingTimes === 'true') response.json(user.trainings);
   else if (all === 'true') response.json(user.words);
-  else {
-    response.json(selectTen(user.words));
-  }
+  else response.json(selectTen(user.words));
 });
 
 /* Check if user exists. */
