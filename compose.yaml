@@ -13,7 +13,7 @@ services:
       context: .
     environment:
       NODE_ENV: production
-      MONGODB_URI: mongodb+srv://akzykov:awdserfthgyu23@cluster0.gq5lbgr.mongodb.net/slov?retryWrites=true&w=majority
+      MONGODB_URI: ${MONGODB_URI}
       PORT: 3001
     ports:
       - 3001:3001
