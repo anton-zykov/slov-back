@@ -1,0 +1,27 @@
+GET http://localhost:3001/api/genitive
+
+###
+POST http://localhost:3001/api/genitive/create
+Content-Type: application/json
+
+{
+  "newTasks": [
+    {
+      "options": [{
+        "word": "человек",
+        "correct": true
+      }, {
+        "word": "человеков",
+        "correct": false
+      }]
+    }, {
+      "options": [{
+        "word": "ручек",
+        "correct": true
+      }, {
+        "word": "ручков",
+        "correct": false
+      }]
+    }
+  ]
+}
