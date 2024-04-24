@@ -1,5 +1,4 @@
 const genitiveRouter = require('express').Router();
-const User = require('../../models/user');
 const GenitiveTask = require('../../models/genitiveTask');
 
 // Get all genitive tasks.
@@ -16,10 +15,19 @@ genitiveRouter.post('/create', async (req, res) => {
   res.status(201).json(savedNewTasks);
 });
 
-// Assign genitive tasks to user.
-genitiveRouter.put('/assign', async (req, res) => {
-  const { username } = req.query;
-  const user = await User.findOne({ username });
+genitiveRouter.get('/gettask', async (_req, res) => {
+  let tasks = await GenitiveTask.find({});
+  tasks = tasks.sort(() => Math.random() - 0.5).slice(0, 10);
+  tasks.forEach(({ options }) => {
+    options.sort(() => Math.random() - 0.5);
+  });
+  res.json(tasks);
 });
+
+// Assign genitive tasks to user.
+// genitiveRouter.put('/assign', async (req, res) => {
+//   const { username } = req.query;
+//   const user = await User.findOne({ username });
+// });
 
 module.exports = genitiveRouter;

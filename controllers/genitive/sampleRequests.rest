@@ -7,21 +7,1462 @@ Content-Type: application/json
 {
   "newTasks": [
     {
-      "options": [{
-        "word": "человек",
-        "correct": true
-      }, {
-        "word": "человеков",
-        "correct": false
-      }]
+    "options": [{
+      "word": "бухгалтеры",
+      "correct": true
     }, {
-      "options": [{
-        "word": "ручек",
-        "correct": true
-      }, {
-        "word": "ручков",
-        "correct": false
-      }]
-    }
+      "word": "бухгалтера",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "инженеры",
+      "correct": true
+    }, {
+      "word": "инженера",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "офицеры",
+      "correct": true
+    }, {
+      "word": "офицера",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "тренеры",
+      "correct": true
+    }, {
+      "word": "тренера",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "лекторы",
+      "correct": true
+    }, {
+      "word": "лектора",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "ректоры",
+      "correct": true
+    }, {
+      "word": "ректора",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "шоферы",
+      "correct": true
+    }, {
+      "word": "шофера",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "конструкторы",
+      "correct": true
+    }, {
+      "word": "конструктора",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "компьютеры",
+      "correct": true
+    }, {
+      "word": "компьютера",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "договоры",
+      "correct": true
+    }, {
+      "word": "договора",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "торты",
+      "correct": true
+    }, {
+      "word": "торта",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "соусы",
+      "correct": true
+    }, {
+      "word": "соуса",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "супы",
+      "correct": true
+    }, {
+      "word": "супа",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "кремы",
+      "correct": true
+    }, {
+      "word": "крема",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "полисы",
+      "correct": true
+    }, {
+      "word": "полиса",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "десны",
+      "correct": true
+    }, {
+      "word": "десна",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "месяцы",
+      "correct": true
+    }, {
+      "word": "месяца",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "возрасты",
+      "correct": true
+    }, {
+      "word": "возраста",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "госпитали",
+      "correct": true
+    }, {
+      "word": "госпиталя",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "профессора",
+      "correct": true
+    }, {
+      "word": "профессоры",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "директора",
+      "correct": true
+    }, {
+      "word": "директоры",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "доктора",
+      "correct": true
+    }, {
+      "word": "докторы",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "повара",
+      "correct": true
+    }, {
+      "word": "повары",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "сторожа",
+      "correct": true
+    }, {
+      "word": "сторожи",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "паспорта",
+      "correct": true
+    }, {
+      "word": "паспорты",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "погреба",
+      "correct": true
+    }, {
+      "word": "погребы",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "купола",
+      "correct": true
+    }, {
+      "word": "куполы",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "катера",
+      "correct": true
+    }, {
+      "word": "катеры",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "веера",
+      "correct": true
+    }, {
+      "word": "вееры",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "колокола",
+      "correct": true
+    }, {
+      "word": "колоколы",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "мастера",
+      "correct": true
+    }, {
+      "word": "мастеры",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "номера",
+      "correct": true
+    }, {
+      "word": "номеры",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "окорока",
+      "correct": true
+    }, {
+      "word": "окороки",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "сорта",
+      "correct": true
+    }, {
+      "word": "сорты",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "тома",
+      "correct": true
+    }, {
+      "word": "томы",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "ущелий",
+      "correct": true
+    }, {
+      "word": "ущельев",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "ожерелий",
+      "correct": true
+    }, {
+      "word": "ожерельев",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "оладий",
+      "correct": true
+    }, {
+      "word": "оладьев",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "сандалий",
+      "correct": true
+    }, {
+      "word": "сандалей",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "запястий",
+      "correct": true
+    }, {
+      "word": "запястьев",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "кушаний",
+      "correct": true
+    }, {
+      "word": "кашаньев",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "раздумий",
+      "correct": true
+    }, {
+      "word": "раздумьев",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "увечий",
+      "correct": true
+    }, {
+      "word": "увечьев",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "пособий",
+      "correct": true
+    }, {
+      "word": "пособиев",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "претензий",
+      "correct": true
+    }, {
+      "word": "претензиев",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "устьев",
+      "correct": true
+    }, {
+      "word": "устий",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "поленьев",
+      "correct": true
+    }, {
+      "word": "полений",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "хлопьев",
+      "correct": true
+    }, {
+      "word": "хлопий",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "подмастерьев",
+      "correct": true
+    }, {
+      "word": "подмастерий",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "платьев",
+      "correct": true
+    }, {
+      "word": "платий",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "кореньев",
+      "correct": true
+    }, {
+      "word": "корений",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "лохмотьев",
+      "correct": true
+    }, {
+      "word": "лохмотий",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "колей",
+      "correct": true
+    }, {
+      "word": "кольев",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "скамей",
+      "correct": true
+    }, {
+      "word": "скамьей",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "статей",
+      "correct": true
+    }, {
+      "word": "статьей",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "судей",
+      "correct": true
+    }, {
+      "word": "судьей",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "ладей",
+      "correct": true
+    }, {
+      "word": "ладьей",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "ружей",
+      "correct": true
+    }, {
+      "word": "ружьев",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "копий",
+      "correct": true
+    }, {
+      "word": "копьев",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "джинсов",
+      "correct": true
+    }, {
+      "word": "джинс",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "заморозков",
+      "correct": true
+    }, {
+      "word": "заморозок",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "консервов",
+      "correct": true
+    }, {
+      "word": "консерв",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "яслей",
+      "correct": true
+    }, {
+      "word": "ясель",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "макарон",
+      "correct": true
+    }, {
+      "word": "макаронов",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "сумерек",
+      "correct": true
+    }, {
+      "word": "сумерков",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "каникул",
+      "correct": true
+    }, {
+      "word": "каникулов",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "шпрот",
+      "correct": true
+    }, {
+      "word": "шпротов",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "ножниц",
+      "correct": true
+    }, {
+      "word": "ножницев",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "брызг",
+      "correct": true
+    }, {
+      "word": "брызгов",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "ворот",
+      "correct": true
+    }, {
+      "word": "воротов",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "клешней",
+      "correct": true
+    }, {
+      "word": "клешен",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "падежей",
+      "correct": true
+    }, {
+      "word": "падежов",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "свечей",
+      "correct": true
+    }, {
+      "word": "свеч",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "гантелей",
+      "correct": true
+    }, {
+      "word": "гантель",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "яслей",
+      "correct": true
+    }, {
+      "word": "ясель",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "будней",
+      "correct": true
+    }, {
+      "word": "будень",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "ратуш",
+      "correct": true
+    }, {
+      "word": "ратушей",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "ниш",
+      "correct": true
+    }, {
+      "word": "нишей",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "чаш",
+      "correct": true
+    }, {
+      "word": "чашей",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "лыж",
+      "correct": true
+    }, {
+      "word": "лыжей",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "рощ",
+      "correct": true
+    }, {
+      "word": "рощей",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "афиш",
+      "correct": true
+    }, {
+      "word": "афишей",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "задач",
+      "correct": true
+    }, {
+      "word": "задачей",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "абрикосов",
+      "correct": true
+    }, {
+      "word": "абрикос",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "апельсинов",
+      "correct": true
+    }, {
+      "word": "апельсин",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "помидоров",
+      "correct": true
+    }, {
+      "word": "помидор",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "томатов",
+      "correct": true
+    }, {
+      "word": "томат",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "мандаринов",
+      "correct": true
+    }, {
+      "word": "мандарин",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "яблок",
+      "correct": true
+    }, {
+      "word": "яблоков",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "груш",
+      "correct": true
+    }, {
+      "word": "грушей",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "дынь",
+      "correct": true
+    }, {
+      "word": "дыней",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "калмыков",
+      "correct": true
+    }, {
+      "word": "калмык",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "арабов",
+      "correct": true
+    }, {
+      "word": "араб",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "киргизов",
+      "correct": true
+    }, {
+      "word": "киргиз",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "узбеков",
+      "correct": true
+    }, {
+      "word": "узбек",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "эскимосов",
+      "correct": true
+    }, {
+      "word": "эскимос",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "латышей",
+      "correct": true
+    }, {
+      "word": "латыш",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "ингушей",
+      "correct": true
+    }, {
+      "word": "ингуш",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "армян",
+      "correct": true
+    }, {
+      "word": "армяней",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "англичан",
+      "correct": true
+    }, {
+      "word": "англичанов",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "болгар",
+      "correct": true
+    }, {
+      "word": "болгаров",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "башкир",
+      "correct": true
+    }, {
+      "word": "башкиров",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "грузин",
+      "correct": true
+    }, {
+      "word": "грузинов",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "осетин",
+      "correct": true
+    }, {
+      "word": "осетинов",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "румын",
+      "correct": true
+    }, {
+      "word": "румынов",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "татар",
+      "correct": true
+    }, {
+      "word": "татаров",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "цыган",
+      "correct": true
+    }, {
+      "word": "цыганей",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "турок",
+      "correct": true
+    }, {
+      "word": "турков",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "бедуинов",
+      "correct": true
+    }, {
+      "word": "бедуин",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "акров",
+      "correct": true
+    }, {
+      "word": "акр",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "граммов",
+      "correct": true
+    }, {
+      "word": "грамм",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "гектаров",
+      "correct": true
+    }, {
+      "word": "гектар",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "килограммов",
+      "correct": true
+    }, {
+      "word": "килограмм",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "ампер",
+      "correct": true
+    }, {
+      "word": "амперов",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "аршин",
+      "correct": true
+    }, {
+      "word": "аршинов",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "ватт",
+      "correct": true
+    }, {
+      "word": "ваттов",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "вольт",
+      "correct": true
+    }, {
+      "word": "вольтов",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "радиан",
+      "correct": true
+    }, {
+      "word": "радианов",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "карат",
+      "correct": true
+    }, {
+      "word": "каратов",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "децибел",
+      "correct": true
+    }, {
+      "word": "децибелов",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "бронхов",
+      "correct": true
+    }, {
+      "word": "бронх",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "гольфов",
+      "correct": true
+    }, {
+      "word": "гольф",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "носков",
+      "correct": true
+    }, {
+      "word": "носок",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "бахил",
+      "correct": true
+    }, {
+      "word": "бахилов",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "ботинок",
+      "correct": true
+    }, {
+      "word": "ботинков",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "валенок",
+      "correct": true
+    }, {
+      "word": "валенков",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "бакенбард",
+      "correct": true
+    }, {
+      "word": "бакенбардов",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "кроссовок",
+      "correct": true
+    }, {
+      "word": "кроссовков",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "плеч",
+      "correct": true
+    }, {
+      "word": "плечей",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "погон",
+      "correct": true
+    }, {
+      "word": "погонов",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "сапог",
+      "correct": true
+    }, {
+      "word": "сапогов",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "туфель",
+      "correct": true
+    }, {
+      "word": "туфлей",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "чулок",
+      "correct": true
+    }, {
+      "word": "чулков",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "матрацев",
+      "correct": true
+    }, {
+      "word": "матрац",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "блюдец",
+      "correct": true
+    }, {
+      "word": "блюдцев",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "полотенец",
+      "correct": true
+    }, {
+      "word": "полотенцев",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "мозолей",
+      "correct": true
+    }, {
+      "word": "мозоль",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "роялей",
+      "correct": true
+    }, {
+      "word": "роялев",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "скальпелей",
+      "correct": true
+    }, {
+      "word": "скальпелев",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "вафель",
+      "correct": true
+    }, {
+      "word": "вафлей",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "сабель",
+      "correct": true
+    }, {
+      "word": "саблей",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "цапель",
+      "correct": true
+    }, {
+      "word": "цаплей",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "яблонь",
+      "correct": true
+    }, {
+      "word": "яблоней",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "богинь",
+      "correct": true
+    }, {
+      "word": "богиней",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "графинь",
+      "correct": true
+    }, {
+      "word": "графиней",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "барышень",
+      "correct": true
+    }, {
+      "word": "барышен",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "боярышень",
+      "correct": true
+    }, {
+      "word": "боярышен",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "кухонь",
+      "correct": true
+    }, {
+      "word": "кухон",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "вишен",
+      "correct": true
+    }, {
+      "word": "вишень",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "черешен",
+      "correct": true
+    }, {
+      "word": "черешень",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "басен",
+      "correct": true
+    }, {
+      "word": "басней",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "башен",
+      "correct": true
+    }, {
+      "word": "башень",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "конюшен",
+      "correct": true
+    }, {
+      "word": "конюшень",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "деревень",
+      "correct": true
+    }, {
+      "word": "деревней",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "блюдец",
+      "correct": true
+    }, {
+      "word": "блюдцев",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "зеркалец",
+      "correct": true
+    }, {
+      "word": "зеркальцев",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "колодцев",
+      "correct": true
+    }, {
+      "word": "колодец",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "деревцев",
+      "correct": true
+    }, {
+      "word": "деревец",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "оконцев",
+      "correct": true
+    }, {
+      "word": "оконец",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "кружевцев",
+      "correct": true
+    }, {
+      "word": "кружевец",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "болотцев",
+      "correct": true
+    }, {
+      "word": "болотец",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "солнц",
+      "correct": true
+    }, {
+      "word": "солнцев",
+      "correct": false
+    }]
+  }
   ]
 }
