@@ -7,6 +7,7 @@ Content-Type: application/json
 {
   "newTasks": [
     {
+    "initial": "бухгалтер",
     "options": [{
       "word": "бухгалтеры",
       "correct": true
@@ -16,6 +17,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "инженер",
     "options": [{
       "word": "инженеры",
       "correct": true
@@ -25,6 +27,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "офицер",
     "options": [{
       "word": "офицеры",
       "correct": true
@@ -34,6 +37,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "тренер",
     "options": [{
       "word": "тренеры",
       "correct": true
@@ -43,6 +47,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "лектор",
     "options": [{
       "word": "лекторы",
       "correct": true
@@ -52,6 +57,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "ректор",
     "options": [{
       "word": "ректоры",
       "correct": true
@@ -61,6 +67,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "шофер",
     "options": [{
       "word": "шоферы",
       "correct": true
@@ -70,6 +77,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "конструктор",
     "options": [{
       "word": "конструкторы",
       "correct": true
@@ -79,6 +87,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "компьютер",
     "options": [{
       "word": "компьютеры",
       "correct": true
@@ -88,6 +97,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "договор",
     "options": [{
       "word": "договоры",
       "correct": true
@@ -97,6 +107,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "торт",
     "options": [{
       "word": "торты",
       "correct": true
@@ -106,6 +117,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "соус",
     "options": [{
       "word": "соусы",
       "correct": true
@@ -115,6 +127,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "суп",
     "options": [{
       "word": "супы",
       "correct": true
@@ -124,6 +137,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "крем",
     "options": [{
       "word": "кремы",
       "correct": true
@@ -133,6 +147,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "полис",
     "options": [{
       "word": "полисы",
       "correct": true
@@ -142,6 +157,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "десна",
     "options": [{
       "word": "десны",
       "correct": true
@@ -151,6 +167,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "месяц",
     "options": [{
       "word": "месяцы",
       "correct": true
@@ -160,6 +177,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "возраст",
     "options": [{
       "word": "возрасты",
       "correct": true
@@ -169,6 +187,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "госпиталь",
     "options": [{
       "word": "госпитали",
       "correct": true
@@ -178,6 +197,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "профессор",
     "options": [{
       "word": "профессора",
       "correct": true
@@ -187,6 +207,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "директор",
     "options": [{
       "word": "директора",
       "correct": true
@@ -196,6 +217,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "доктор",
     "options": [{
       "word": "доктора",
       "correct": true
@@ -205,6 +227,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "повар",
     "options": [{
       "word": "повара",
       "correct": true
@@ -214,6 +237,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "сторож",
     "options": [{
       "word": "сторожа",
       "correct": true
@@ -223,6 +247,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "паспорт",
     "options": [{
       "word": "паспорта",
       "correct": true
@@ -232,6 +257,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "погреб",
     "options": [{
       "word": "погреба",
       "correct": true
@@ -241,6 +267,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "купол",
     "options": [{
       "word": "купола",
       "correct": true
@@ -250,6 +277,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "катер",
     "options": [{
       "word": "катера",
       "correct": true
@@ -259,6 +287,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "веер",
     "options": [{
       "word": "веера",
       "correct": true
@@ -268,6 +297,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "колокол",
     "options": [{
       "word": "колокола",
       "correct": true
@@ -277,6 +307,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "мастер",
     "options": [{
       "word": "мастера",
       "correct": true
@@ -286,6 +317,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "номер",
     "options": [{
       "word": "номера",
       "correct": true
@@ -295,6 +327,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "окорок",
     "options": [{
       "word": "окорока",
       "correct": true
@@ -304,6 +337,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "сорт",
     "options": [{
       "word": "сорта",
       "correct": true
@@ -313,6 +347,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "том",
     "options": [{
       "word": "тома",
       "correct": true
@@ -322,6 +357,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "ущелье",
     "options": [{
       "word": "ущелий",
       "correct": true
@@ -331,6 +367,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "ожерелье",
     "options": [{
       "word": "ожерелий",
       "correct": true
@@ -340,6 +377,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "оладья",
     "options": [{
       "word": "оладий",
       "correct": true
@@ -349,6 +387,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "сандалия",
     "options": [{
       "word": "сандалий",
       "correct": true
@@ -358,6 +397,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "запястье",
     "options": [{
       "word": "запястий",
       "correct": true
@@ -367,6 +407,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "кушанье",
     "options": [{
       "word": "кушаний",
       "correct": true
@@ -376,6 +417,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "раздумье",
     "options": [{
       "word": "раздумий",
       "correct": true
@@ -385,6 +427,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "увечье",
     "options": [{
       "word": "увечий",
       "correct": true
@@ -394,6 +437,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "пособие",
     "options": [{
       "word": "пособий",
       "correct": true
@@ -403,6 +447,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "претензия",
     "options": [{
       "word": "претензий",
       "correct": true
@@ -412,6 +457,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "устье",
     "options": [{
       "word": "устьев",
       "correct": true
@@ -421,6 +467,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "полено",
     "options": [{
       "word": "поленьев",
       "correct": true
@@ -430,6 +477,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "хлопья",
     "options": [{
       "word": "хлопьев",
       "correct": true
@@ -439,6 +487,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "подмастерье",
     "options": [{
       "word": "подмастерьев",
       "correct": true
@@ -448,6 +497,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "платье",
     "options": [{
       "word": "платьев",
       "correct": true
@@ -457,6 +507,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "корень",
     "options": [{
       "word": "кореньев",
       "correct": true
@@ -466,6 +517,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "лохмотья",
     "options": [{
       "word": "лохмотьев",
       "correct": true
@@ -475,6 +527,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "колея",
     "options": [{
       "word": "колей",
       "correct": true
@@ -484,6 +537,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "скамья",
     "options": [{
       "word": "скамей",
       "correct": true
@@ -493,6 +547,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "статья",
     "options": [{
       "word": "статей",
       "correct": true
@@ -502,6 +557,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "судья",
     "options": [{
       "word": "судей",
       "correct": true
@@ -511,6 +567,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "ладья",
     "options": [{
       "word": "ладей",
       "correct": true
@@ -520,6 +577,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "ружьё",
     "options": [{
       "word": "ружей",
       "correct": true
@@ -529,6 +587,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "копьё",
     "options": [{
       "word": "копий",
       "correct": true
@@ -538,6 +597,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "джинсы",
     "options": [{
       "word": "джинсов",
       "correct": true
@@ -547,6 +607,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "заморозки",
     "options": [{
       "word": "заморозков",
       "correct": true
@@ -556,6 +617,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "консервы",
     "options": [{
       "word": "консервов",
       "correct": true
@@ -565,6 +627,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "ясли",
     "options": [{
       "word": "яслей",
       "correct": true
@@ -574,6 +637,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "макароны",
     "options": [{
       "word": "макарон",
       "correct": true
@@ -583,6 +647,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "сумерки",
     "options": [{
       "word": "сумерек",
       "correct": true
@@ -592,6 +657,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "каникулы",
     "options": [{
       "word": "каникул",
       "correct": true
@@ -601,6 +667,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "шпроты",
     "options": [{
       "word": "шпрот",
       "correct": true
@@ -610,6 +677,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "ножницы",
     "options": [{
       "word": "ножниц",
       "correct": true
@@ -619,6 +687,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "брызги",
     "options": [{
       "word": "брызг",
       "correct": true
@@ -628,6 +697,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "ворота",
     "options": [{
       "word": "ворот",
       "correct": true
@@ -637,6 +707,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "клешня",
     "options": [{
       "word": "клешней",
       "correct": true
@@ -646,6 +717,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "падеж",
     "options": [{
       "word": "падежей",
       "correct": true
@@ -655,6 +727,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "свеча",
     "options": [{
       "word": "свечей",
       "correct": true
@@ -664,6 +737,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "гантель",
     "options": [{
       "word": "гантелей",
       "correct": true
@@ -673,6 +747,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "ясли",
     "options": [{
       "word": "яслей",
       "correct": true
@@ -682,6 +757,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "будни",
     "options": [{
       "word": "будней",
       "correct": true
@@ -691,6 +767,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "ратуша",
     "options": [{
       "word": "ратуш",
       "correct": true
@@ -700,6 +777,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "ниша",
     "options": [{
       "word": "ниш",
       "correct": true
@@ -709,6 +787,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "чаша",
     "options": [{
       "word": "чаш",
       "correct": true
@@ -718,6 +797,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "лыжа",
     "options": [{
       "word": "лыж",
       "correct": true
@@ -727,6 +807,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "роща",
     "options": [{
       "word": "рощ",
       "correct": true
@@ -736,6 +817,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "афиша",
     "options": [{
       "word": "афиш",
       "correct": true
@@ -745,6 +827,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "задача",
     "options": [{
       "word": "задач",
       "correct": true
@@ -754,6 +837,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "абрикос",
     "options": [{
       "word": "абрикосов",
       "correct": true
@@ -763,6 +847,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "апельсин",
     "options": [{
       "word": "апельсинов",
       "correct": true
@@ -772,6 +857,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "помидор",
     "options": [{
       "word": "помидоров",
       "correct": true
@@ -781,6 +867,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "томат",
     "options": [{
       "word": "томатов",
       "correct": true
@@ -790,6 +877,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "мандарин",
     "options": [{
       "word": "мандаринов",
       "correct": true
@@ -799,6 +887,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "яблоко",
     "options": [{
       "word": "яблок",
       "correct": true
@@ -808,6 +897,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "груша",
     "options": [{
       "word": "груш",
       "correct": true
@@ -817,6 +907,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "дыня",
     "options": [{
       "word": "дынь",
       "correct": true
@@ -826,6 +917,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "калмыки",
     "options": [{
       "word": "калмыков",
       "correct": true
@@ -835,6 +927,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "арабы",
     "options": [{
       "word": "арабов",
       "correct": true
@@ -844,6 +937,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "киргизы",
     "options": [{
       "word": "киргизов",
       "correct": true
@@ -853,6 +947,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "узбеки",
     "options": [{
       "word": "узбеков",
       "correct": true
@@ -862,6 +957,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "эскимосы",
     "options": [{
       "word": "эскимосов",
       "correct": true
@@ -871,6 +967,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "латыши",
     "options": [{
       "word": "латышей",
       "correct": true
@@ -880,6 +977,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "ингуши",
     "options": [{
       "word": "ингушей",
       "correct": true
@@ -889,6 +987,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "армяне",
     "options": [{
       "word": "армян",
       "correct": true
@@ -898,6 +997,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "англичане",
     "options": [{
       "word": "англичан",
       "correct": true
@@ -907,6 +1007,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "болгары",
     "options": [{
       "word": "болгар",
       "correct": true
@@ -916,6 +1017,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "башкиры",
     "options": [{
       "word": "башкир",
       "correct": true
@@ -925,6 +1027,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "грузины",
     "options": [{
       "word": "грузин",
       "correct": true
@@ -934,6 +1037,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "осетины",
     "options": [{
       "word": "осетин",
       "correct": true
@@ -943,6 +1047,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "румыны",
     "options": [{
       "word": "румын",
       "correct": true
@@ -952,6 +1057,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "татары",
     "options": [{
       "word": "татар",
       "correct": true
@@ -961,6 +1067,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "цыгане",
     "options": [{
       "word": "цыган",
       "correct": true
@@ -970,6 +1077,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "турки",
     "options": [{
       "word": "турок",
       "correct": true
@@ -979,6 +1087,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "бедуины",
     "options": [{
       "word": "бедуинов",
       "correct": true
@@ -988,6 +1097,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "акр",
     "options": [{
       "word": "акров",
       "correct": true
@@ -997,6 +1107,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "грамм",
     "options": [{
       "word": "граммов",
       "correct": true
@@ -1006,6 +1117,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "гектар",
     "options": [{
       "word": "гектаров",
       "correct": true
@@ -1015,6 +1127,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "килограмм",
     "options": [{
       "word": "килограммов",
       "correct": true
@@ -1024,6 +1137,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "ампер",
     "options": [{
       "word": "ампер",
       "correct": true
@@ -1033,6 +1147,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "аршин",
     "options": [{
       "word": "аршин",
       "correct": true
@@ -1042,6 +1157,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "ватт",
     "options": [{
       "word": "ватт",
       "correct": true
@@ -1051,6 +1167,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "вольт",
     "options": [{
       "word": "вольт",
       "correct": true
@@ -1060,6 +1177,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "радиан",
     "options": [{
       "word": "радиан",
       "correct": true
@@ -1069,6 +1187,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "карат",
     "options": [{
       "word": "карат",
       "correct": true
@@ -1078,6 +1197,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "децибел",
     "options": [{
       "word": "децибел",
       "correct": true
@@ -1087,6 +1207,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "бронхи",
     "options": [{
       "word": "бронхов",
       "correct": true
@@ -1096,6 +1217,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "гольфы",
     "options": [{
       "word": "гольфов",
       "correct": true
@@ -1105,6 +1227,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "носки",
     "options": [{
       "word": "носков",
       "correct": true
@@ -1114,6 +1237,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "бахилы",
     "options": [{
       "word": "бахил",
       "correct": true
@@ -1123,6 +1247,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "ботинки",
     "options": [{
       "word": "ботинок",
       "correct": true
@@ -1132,6 +1257,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "валенки",
     "options": [{
       "word": "валенок",
       "correct": true
@@ -1141,6 +1267,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "бакенбарды",
     "options": [{
       "word": "бакенбард",
       "correct": true
@@ -1150,6 +1277,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "кроссовки",
     "options": [{
       "word": "кроссовок",
       "correct": true
@@ -1159,6 +1287,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "плечи",
     "options": [{
       "word": "плеч",
       "correct": true
@@ -1168,6 +1297,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "погоны",
     "options": [{
       "word": "погон",
       "correct": true
@@ -1177,6 +1307,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "сапоги",
     "options": [{
       "word": "сапог",
       "correct": true
@@ -1186,6 +1317,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "туфли",
     "options": [{
       "word": "туфель",
       "correct": true
@@ -1195,6 +1327,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "чулки",
     "options": [{
       "word": "чулок",
       "correct": true
@@ -1204,6 +1337,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "матрац",
     "options": [{
       "word": "матрацев",
       "correct": true
@@ -1213,6 +1347,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "блюдце",
     "options": [{
       "word": "блюдец",
       "correct": true
@@ -1222,6 +1357,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "полотенце",
     "options": [{
       "word": "полотенец",
       "correct": true
@@ -1231,6 +1367,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "мозоль",
     "options": [{
       "word": "мозолей",
       "correct": true
@@ -1240,6 +1377,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "рояль",
     "options": [{
       "word": "роялей",
       "correct": true
@@ -1249,6 +1387,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "скальпель",
     "options": [{
       "word": "скальпелей",
       "correct": true
@@ -1258,6 +1397,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "вафля",
     "options": [{
       "word": "вафель",
       "correct": true
@@ -1267,6 +1407,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "сабля",
     "options": [{
       "word": "сабель",
       "correct": true
@@ -1276,6 +1417,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "цапля",
     "options": [{
       "word": "цапель",
       "correct": true
@@ -1285,6 +1427,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "яблоня",
     "options": [{
       "word": "яблонь",
       "correct": true
@@ -1294,6 +1437,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "богиня",
     "options": [{
       "word": "богинь",
       "correct": true
@@ -1303,6 +1447,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "графиня",
     "options": [{
       "word": "графинь",
       "correct": true
@@ -1312,6 +1457,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "барышня",
     "options": [{
       "word": "барышень",
       "correct": true
@@ -1321,6 +1467,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "боярышня",
     "options": [{
       "word": "боярышень",
       "correct": true
@@ -1330,6 +1477,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "кухня",
     "options": [{
       "word": "кухонь",
       "correct": true
@@ -1339,6 +1487,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "вишня",
     "options": [{
       "word": "вишен",
       "correct": true
@@ -1348,6 +1497,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "черешня",
     "options": [{
       "word": "черешен",
       "correct": true
@@ -1357,6 +1507,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "басня",
     "options": [{
       "word": "басен",
       "correct": true
@@ -1366,6 +1517,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "башня",
     "options": [{
       "word": "башен",
       "correct": true
@@ -1375,6 +1527,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "конюшня",
     "options": [{
       "word": "конюшен",
       "correct": true
@@ -1384,6 +1537,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "деревня",
     "options": [{
       "word": "деревень",
       "correct": true
@@ -1393,6 +1547,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "блюдце",
     "options": [{
       "word": "блюдец",
       "correct": true
@@ -1402,6 +1557,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "зеркальце",
     "options": [{
       "word": "зеркалец",
       "correct": true
@@ -1411,6 +1567,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "колодец",
     "options": [{
       "word": "колодцев",
       "correct": true
@@ -1420,6 +1577,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "деревце",
     "options": [{
       "word": "деревцев",
       "correct": true
@@ -1429,6 +1587,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "оконце",
     "options": [{
       "word": "оконцев",
       "correct": true
@@ -1438,6 +1597,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "кружевце",
     "options": [{
       "word": "кружевцев",
       "correct": true
@@ -1447,6 +1607,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "болотце",
     "options": [{
       "word": "болотцев",
       "correct": true
@@ -1456,6 +1617,7 @@ Content-Type: application/json
     }]
   },
   {
+    "initial": "солнце",
     "options": [{
       "word": "солнц",
       "correct": true

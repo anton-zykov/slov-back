@@ -1,6 +1,10 @@
 const mongoose = require('mongoose');
 
 const genitiveTaskSchema = new mongoose.Schema({
+  initial: {
+    type: String,
+    required: true,
+  },
   options: [
     {
       word: {
