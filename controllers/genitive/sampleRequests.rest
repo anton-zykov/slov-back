@@ -1,1628 +1,1736 @@
-GET http://localhost:3001/api/genitive
+GET http://localhost:3001/api/stress/gettask
 
 ###
-POST http://localhost:3001/api/genitive/create
+POST http://localhost:3001/api/stress/create
 Content-Type: application/json
 
 {
   "newTasks": [
     {
-    "initial": "бухгалтер",
     "options": [{
-      "word": "бухгалтеры",
+      "word": "аэропОрты",
       "correct": true
     }, {
-      "word": "бухгалтера",
+      "word": "аэропортЫ",
       "correct": false
     }]
   },
   {
-    "initial": "инженер",
     "options": [{
-      "word": "инженеры",
+      "word": "бАнты",
       "correct": true
     }, {
-      "word": "инженера",
+      "word": "бантЫ",
       "correct": false
     }]
   },
   {
-    "initial": "офицер",
     "options": [{
-      "word": "офицеры",
+      "word": "бОроду",
       "correct": true
     }, {
-      "word": "офицера",
+      "word": "бородУ",
       "correct": false
     }]
   },
   {
-    "initial": "тренер",
     "options": [{
-      "word": "тренеры",
+      "word": "бухгАлтеров",
       "correct": true
     }, {
-      "word": "тренера",
+      "word": "бухгалтерОв",
       "correct": false
     }]
   },
   {
-    "initial": "лектор",
     "options": [{
-      "word": "лекторы",
+      "word": "вероисповЕдание",
       "correct": true
     }, {
-      "word": "лектора",
+      "word": "вероисповедАние",
       "correct": false
     }]
   },
   {
-    "initial": "ректор",
     "options": [{
-      "word": "ректоры",
+      "word": "водопровОд",
       "correct": true
     }, {
-      "word": "ректора",
+      "word": "водопрОвод",
       "correct": false
     }]
   },
   {
-    "initial": "шофер",
     "options": [{
-      "word": "шоферы",
+      "word": "газопровОд",
       "correct": true
     }, {
-      "word": "шофера",
+      "word": "газопрОвод",
       "correct": false
     }]
   },
   {
-    "initial": "конструктор",
     "options": [{
-      "word": "конструкторы",
+      "word": "дешевИзна",
       "correct": true
     }, {
-      "word": "конструктора",
+      "word": "дешевизнА",
       "correct": false
     }]
   },
   {
-    "initial": "компьютер",
     "options": [{
-      "word": "компьютеры",
+      "word": "диспансЕр",
       "correct": true
     }, {
-      "word": "компьютера",
+      "word": "диспАнсер",
       "correct": false
     }]
   },
   {
-    "initial": "договор",
     "options": [{
-      "word": "договоры",
+      "word": "докумЕнт",
       "correct": true
     }, {
-      "word": "договора",
+      "word": "докУмент",
       "correct": false
     }]
   },
   {
-    "initial": "торт",
     "options": [{
-      "word": "торты",
+      "word": "досУг",
       "correct": true
     }, {
-      "word": "торта",
+      "word": "дОсуг",
       "correct": false
     }]
   },
   {
-    "initial": "соус",
     "options": [{
-      "word": "соусы",
+      "word": "еретИк",
       "correct": true
     }, {
-      "word": "соуса",
+      "word": "ерЕтик",
       "correct": false
     }]
   },
   {
-    "initial": "суп",
     "options": [{
-      "word": "супы",
+      "word": "жалюзИ",
       "correct": true
     }, {
-      "word": "супа",
+      "word": "жАлюзи",
       "correct": false
     }]
   },
   {
-    "initial": "крем",
     "options": [{
-      "word": "кремы",
+      "word": "Иксы",
       "correct": true
     }, {
-      "word": "крема",
+      "word": "иксЫ",
       "correct": false
     }]
   },
   {
-    "initial": "полис",
     "options": [{
-      "word": "полисы",
+      "word": "каталОг",
       "correct": true
     }, {
-      "word": "полиса",
+      "word": "катАлог",
       "correct": false
     }]
   },
   {
-    "initial": "десна",
     "options": [{
-      "word": "десны",
+      "word": "квартАл",
       "correct": true
     }, {
-      "word": "десна",
+      "word": "квАртал",
       "correct": false
     }]
   },
   {
-    "initial": "месяц",
     "options": [{
-      "word": "месяцы",
+      "word": "киломЕтр",
       "correct": true
     }, {
-      "word": "месяца",
+      "word": "килОметр",
       "correct": false
     }]
   },
   {
-    "initial": "возраст",
     "options": [{
-      "word": "возрасты",
+      "word": "кОнусов",
       "correct": true
     }, {
-      "word": "возраста",
+      "word": "конусОв",
       "correct": false
     }]
   },
   {
-    "initial": "госпиталь",
     "options": [{
-      "word": "госпитали",
+      "word": "крАны",
       "correct": true
     }, {
-      "word": "госпиталя",
+      "word": "кранЫ",
       "correct": false
     }]
   },
   {
-    "initial": "профессор",
     "options": [{
-      "word": "профессора",
+      "word": "кремЕнь",
       "correct": true
     }, {
-      "word": "профессоры",
+      "word": "крЕмень",
       "correct": false
     }]
   },
   {
-    "initial": "директор",
     "options": [{
-      "word": "директора",
+      "word": "лЕкторов",
       "correct": true
     }, {
-      "word": "директоры",
+      "word": "лекторОв",
       "correct": false
     }]
   },
   {
-    "initial": "доктор",
     "options": [{
-      "word": "доктора",
+      "word": "лОктя,",
       "correct": true
     }, {
-      "word": "докторы",
+      "word": "локтЯ",
       "correct": false
     }]
   },
   {
-    "initial": "повар",
     "options": [{
-      "word": "повара",
+      "word": "мЕстностей",
       "correct": true
     }, {
-      "word": "повары",
+      "word": "местностЕй",
       "correct": false
     }]
   },
   {
-    "initial": "сторож",
     "options": [{
-      "word": "сторожа",
+      "word": "намЕрение",
       "correct": true
     }, {
-      "word": "сторожи",
+      "word": "намерЕние",
       "correct": false
     }]
   },
   {
-    "initial": "паспорт",
     "options": [{
-      "word": "паспорта",
+      "word": "нЕдруг",
       "correct": true
     }, {
-      "word": "паспорты",
+      "word": "недрУг",
       "correct": false
     }]
   },
   {
-    "initial": "погреб",
     "options": [{
-      "word": "погреба",
+      "word": "недУг",
       "correct": true
     }, {
-      "word": "погребы",
+      "word": "нЕдуг",
       "correct": false
     }]
   },
   {
-    "initial": "купол",
     "options": [{
-      "word": "купола",
+      "word": "некролОг",
       "correct": true
     }, {
-      "word": "куполы",
+      "word": "некрОлог",
       "correct": false
     }]
   },
   {
-    "initial": "катер",
     "options": [{
-      "word": "катера",
+      "word": "нефтепровОд",
       "correct": true
     }, {
-      "word": "катеры",
+      "word": "нефтепрОвод",
       "correct": false
     }]
   },
   {
-    "initial": "веер",
     "options": [{
-      "word": "веера",
+      "word": "новостЕй",
       "correct": true
     }, {
-      "word": "вееры",
+      "word": "нОвостей",
       "correct": false
     }]
   },
   {
-    "initial": "колокол",
     "options": [{
-      "word": "колокола",
+      "word": "нОгтя",
       "correct": true
     }, {
-      "word": "колоколы",
+      "word": "ногтЯ",
       "correct": false
     }]
   },
   {
-    "initial": "мастер",
     "options": [{
-      "word": "мастера",
+      "word": "Отрочество",
       "correct": true
     }, {
-      "word": "мастеры",
+      "word": "отрОчество",
       "correct": false
     }]
   },
   {
-    "initial": "номер",
     "options": [{
-      "word": "номера",
+      "word": "партЕр",
       "correct": true
     }, {
-      "word": "номеры",
+      "word": "пАртер",
       "correct": false
     }]
   },
   {
-    "initial": "окорок",
     "options": [{
-      "word": "окорока",
+      "word": "придАное",
       "correct": true
     }, {
-      "word": "окороки",
+      "word": "прИданое",
       "correct": false
     }]
   },
   {
-    "initial": "сорт",
     "options": [{
-      "word": "сорта",
+      "word": "призЫв",
       "correct": true
     }, {
-      "word": "сорты",
+      "word": "прИзыв",
       "correct": false
     }]
   },
   {
-    "initial": "том",
     "options": [{
-      "word": "тома",
+      "word": "свЕкла",
       "correct": true
     }, {
-      "word": "томы",
+      "word": "свеклА",
       "correct": false
     }]
   },
   {
-    "initial": "ущелье",
     "options": [{
-      "word": "ущелий",
+      "word": "сирОты",
       "correct": true
     }, {
-      "word": "ущельев",
+      "word": "сИроты",
       "correct": false
     }]
   },
   {
-    "initial": "ожерелье",
     "options": [{
-      "word": "ожерелий",
+      "word": "созЫв",
       "correct": true
     }, {
-      "word": "ожерельев",
+      "word": "сОзыв",
       "correct": false
     }]
   },
   {
-    "initial": "оладья",
     "options": [{
-      "word": "оладий",
+      "word": "сосредотОчение",
       "correct": true
     }, {
-      "word": "оладьев",
+      "word": "сосредоточЕние",
       "correct": false
     }]
   },
   {
-    "initial": "сандалия",
     "options": [{
-      "word": "сандалий",
+      "word": "срЕдства",
       "correct": true
     }, {
-      "word": "сандалей",
+      "word": "средствА",
       "correct": false
     }]
   },
   {
-    "initial": "запястье",
     "options": [{
-      "word": "запястий",
+      "word": "столЯр",
       "correct": true
     }, {
-      "word": "запястьев",
+      "word": "стОляр",
       "correct": false
     }]
   },
   {
-    "initial": "кушанье",
     "options": [{
-      "word": "кушаний",
+      "word": "тОрты",
       "correct": true
     }, {
-      "word": "кашаньев",
+      "word": "тортЫ",
       "correct": false
     }]
   },
   {
-    "initial": "раздумье",
     "options": [{
-      "word": "раздумий",
+      "word": "тУфля",
       "correct": true
     }, {
-      "word": "раздумьев",
+      "word": "туфлЯ",
       "correct": false
     }]
   },
   {
-    "initial": "увечье",
     "options": [{
-      "word": "увечий",
+      "word": "цепОчка",
       "correct": true
     }, {
-      "word": "увечьев",
+      "word": "цЕпочка",
       "correct": false
     }]
   },
   {
-    "initial": "пособие",
     "options": [{
-      "word": "пособий",
+      "word": "шАрфы",
       "correct": true
     }, {
-      "word": "пособиев",
+      "word": "шарфЫ",
       "correct": false
     }]
   },
   {
-    "initial": "претензия",
     "options": [{
-      "word": "претензий",
+      "word": "шофЕр",
       "correct": true
     }, {
-      "word": "претензиев",
+      "word": "шОфер",
       "correct": false
     }]
   },
   {
-    "initial": "устье",
     "options": [{
-      "word": "устьев",
+      "word": "вернА",
       "correct": true
     }, {
-      "word": "устий",
+      "word": "вЕрна",
       "correct": false
     }]
   },
   {
-    "initial": "полено",
     "options": [{
-      "word": "поленьев",
+      "word": "красИвее",
       "correct": true
     }, {
-      "word": "полений",
+      "word": "красивЕе",
       "correct": false
     }]
   },
   {
-    "initial": "хлопья",
     "options": [{
-      "word": "хлопьев",
+      "word": "кУхонный",
       "correct": true
     }, {
-      "word": "хлопий",
+      "word": "кухОнный",
       "correct": false
     }]
   },
   {
-    "initial": "подмастерье",
     "options": [{
-      "word": "подмастерьев",
+      "word": "ловкА",
       "correct": true
     }, {
-      "word": "подмастерий",
+      "word": "лОвка",
       "correct": false
     }]
   },
   {
-    "initial": "платье",
     "options": [{
-      "word": "платьев",
+      "word": "мозаИчный",
       "correct": true
     }, {
-      "word": "платий",
+      "word": "мозАичный",
       "correct": false
     }]
   },
   {
-    "initial": "корень",
     "options": [{
-      "word": "кореньев",
+      "word": "оптОвый",
       "correct": true
     }, {
-      "word": "корений",
+      "word": "Оптовый",
       "correct": false
     }]
   },
   {
-    "initial": "лохмотья",
     "options": [{
-      "word": "лохмотьев",
+      "word": "прозорлИвый",
       "correct": true
     }, {
-      "word": "лохмотий",
+      "word": "прозОрливый",
       "correct": false
     }]
   },
   {
-    "initial": "колея",
     "options": [{
-      "word": "колей",
+      "word": "слИвовый",
       "correct": true
     }, {
-      "word": "кольев",
+      "word": "сливОвый",
       "correct": false
     }]
   },
   {
-    "initial": "скамья",
     "options": [{
-      "word": "скамей",
+      "word": "бралА",
       "correct": true
     }, {
-      "word": "скамьей",
+      "word": "брАла",
       "correct": false
     }]
   },
   {
-    "initial": "статья",
     "options": [{
-      "word": "статей",
+      "word": "бралАсь",
       "correct": true
     }, {
-      "word": "статьей",
+      "word": "брАлась",
       "correct": false
     }]
   },
   {
-    "initial": "судья",
     "options": [{
-      "word": "судей",
+      "word": "взялА",
       "correct": true
     }, {
-      "word": "судьей",
+      "word": "взЯла",
       "correct": false
     }]
   },
   {
-    "initial": "ладья",
     "options": [{
-      "word": "ладей",
+      "word": "взялАсь",
       "correct": true
     }, {
-      "word": "ладьей",
+      "word": "взЯлась",
       "correct": false
     }]
   },
   {
-    "initial": "ружьё",
     "options": [{
-      "word": "ружей",
+      "word": "влилАсь",
       "correct": true
     }, {
-      "word": "ружьев",
+      "word": "влИлась",
       "correct": false
     }]
   },
   {
-    "initial": "копьё",
     "options": [{
-      "word": "копий",
+      "word": "ворвалАсь",
       "correct": true
     }, {
-      "word": "копьев",
+      "word": "ворвАлась",
       "correct": false
     }]
   },
   {
-    "initial": "джинсы",
     "options": [{
-      "word": "джинсов",
+      "word": "воспринЯть",
       "correct": true
     }, {
-      "word": "джинс",
+      "word": "воспрИнять",
       "correct": false
     }]
   },
   {
-    "initial": "заморозки",
     "options": [{
-      "word": "заморозков",
+      "word": "воспринялА",
       "correct": true
     }, {
-      "word": "заморозок",
+      "word": "воспрИняла",
       "correct": false
     }]
   },
   {
-    "initial": "консервы",
     "options": [{
-      "word": "консервов",
+      "word": "воссоздалА",
       "correct": true
     }, {
-      "word": "консерв",
+      "word": "воссоздАла",
       "correct": false
     }]
   },
   {
-    "initial": "ясли",
     "options": [{
-      "word": "яслей",
+      "word": "вручИт",
       "correct": true
     }, {
-      "word": "ясель",
+      "word": "врУчит",
       "correct": false
     }]
   },
   {
-    "initial": "макароны",
     "options": [{
-      "word": "макарон",
+      "word": "гналА",
       "correct": true
     }, {
-      "word": "макаронов",
+      "word": "гнАла",
       "correct": false
     }]
   },
   {
-    "initial": "сумерки",
     "options": [{
-      "word": "сумерек",
+      "word": "гналАсь",
       "correct": true
     }, {
-      "word": "сумерков",
+      "word": "гнАлась",
       "correct": false
     }]
   },
   {
-    "initial": "каникулы",
     "options": [{
-      "word": "каникул",
+      "word": "добралА",
       "correct": true
     }, {
-      "word": "каникулов",
+      "word": "добрАла",
       "correct": false
     }]
   },
   {
-    "initial": "шпроты",
     "options": [{
-      "word": "шпрот",
+      "word": "добралАсь",
       "correct": true
     }, {
-      "word": "шпротов",
+      "word": "добрАлась",
       "correct": false
     }]
   },
   {
-    "initial": "ножницы",
     "options": [{
-      "word": "ножниц",
+      "word": "дождалАсь",
       "correct": true
     }, {
-      "word": "ножницев",
+      "word": "дождАлась",
       "correct": false
     }]
   },
   {
-    "initial": "брызги",
     "options": [{
-      "word": "брызг",
+      "word": "дозвонИтся",
       "correct": true
     }, {
-      "word": "брызгов",
+      "word": "дозвОнится",
       "correct": false
     }]
   },
   {
-    "initial": "ворота",
     "options": [{
-      "word": "ворот",
+      "word": "дозИровать",
       "correct": true
     }, {
-      "word": "воротов",
+      "word": "дозировАть",
       "correct": false
     }]
   },
   {
-    "initial": "клешня",
     "options": [{
-      "word": "клешней",
+      "word": "ждалА",
       "correct": true
     }, {
-      "word": "клешен",
+      "word": "ждАла",
       "correct": false
     }]
   },
   {
-    "initial": "падеж",
     "options": [{
-      "word": "падежей",
+      "word": "жилОсь",
       "correct": true
     }, {
-      "word": "падежов",
+      "word": "жИлось",
       "correct": false
     }]
   },
   {
-    "initial": "свеча",
     "options": [{
-      "word": "свечей",
+      "word": "закУпорить",
       "correct": true
     }, {
-      "word": "свеч",
+      "word": "закупОрить",
       "correct": false
     }]
   },
   {
-    "initial": "гантель",
     "options": [{
-      "word": "гантелей",
+      "word": "зАнял",
       "correct": true
     }, {
-      "word": "гантель",
+      "word": "занЯл",
       "correct": false
     }]
   },
   {
-    "initial": "ясли",
     "options": [{
-      "word": "яслей",
+      "word": "занялА",
       "correct": true
     }, {
-      "word": "ясель",
+      "word": "зАняла",
       "correct": false
     }]
   },
   {
-    "initial": "будни",
     "options": [{
-      "word": "будней",
+      "word": "зАняли",
       "correct": true
     }, {
-      "word": "будень",
+      "word": "занЯли.",
       "correct": false
     }]
   },
   {
-    "initial": "ратуша",
     "options": [{
-      "word": "ратуш",
+      "word": "заперлА",
       "correct": true
     }, {
-      "word": "ратушей",
+      "word": "зАперла",
       "correct": false
     }]
   },
   {
-    "initial": "ниша",
     "options": [{
-      "word": "ниш",
+      "word": "запломбировАть",
       "correct": true
     }, {
-      "word": "нишей",
+      "word": "запломбИровать",
       "correct": false
     }]
   },
   {
-    "initial": "чаша",
     "options": [{
-      "word": "чаш",
+      "word": "защемИт",
       "correct": true
     }, {
-      "word": "чашей",
+      "word": "защЕмит",
       "correct": false
     }]
   },
   {
-    "initial": "лыжа",
     "options": [{
-      "word": "лыж",
+      "word": "звалА",
       "correct": true
     }, {
-      "word": "лыжей",
+      "word": "звАла",
       "correct": false
     }]
   },
   {
-    "initial": "роща",
     "options": [{
-      "word": "рощ",
+      "word": "звонИт",
       "correct": true
     }, {
-      "word": "рощей",
+      "word": "звОнит",
       "correct": false
     }]
   },
   {
-    "initial": "афиша",
     "options": [{
-      "word": "афиш",
+      "word": "кАшлянуть",
       "correct": true
     }, {
-      "word": "афишей",
+      "word": "кашлянУть",
       "correct": false
     }]
   },
   {
-    "initial": "задача",
     "options": [{
-      "word": "задач",
+      "word": "клАла",
       "correct": true
     }, {
-      "word": "задачей",
+      "word": "клалА",
       "correct": false
     }]
   },
   {
-    "initial": "абрикос",
     "options": [{
-      "word": "абрикосов",
+      "word": "крАлась",
       "correct": true
     }, {
-      "word": "абрикос",
+      "word": "кралАсь",
       "correct": false
     }]
   },
   {
-    "initial": "апельсин",
     "options": [{
-      "word": "апельсинов",
+      "word": "кровоточИть",
       "correct": true
     }, {
-      "word": "апельсин",
+      "word": "кровотОчить",
       "correct": false
     }]
   },
   {
-    "initial": "помидор",
     "options": [{
-      "word": "помидоров",
+      "word": "лгалА",
       "correct": true
     }, {
-      "word": "помидор",
+      "word": "лгАла",
       "correct": false
     }]
   },
   {
-    "initial": "томат",
     "options": [{
-      "word": "томатов",
+      "word": "лилА",
       "correct": true
     }, {
-      "word": "томат",
+      "word": "лИла",
       "correct": false
     }]
   },
   {
-    "initial": "мандарин",
     "options": [{
-      "word": "мандаринов",
+      "word": "лилАсь",
       "correct": true
     }, {
-      "word": "мандарин",
+      "word": "лИлась",
       "correct": false
     }]
   },
   {
-    "initial": "яблоко",
     "options": [{
-      "word": "яблок",
+      "word": "навралА",
       "correct": true
     }, {
-      "word": "яблоков",
+      "word": "наврАла",
       "correct": false
     }]
   },
   {
-    "initial": "груша",
     "options": [{
-      "word": "груш",
+      "word": "наделИт",
       "correct": true
     }, {
-      "word": "грушей",
+      "word": "надЕлит",
       "correct": false
     }]
   },
   {
-    "initial": "дыня",
     "options": [{
-      "word": "дынь",
+      "word": "надорвалАсь",
       "correct": true
     }, {
-      "word": "дыней",
+      "word": "надорвАлась",
       "correct": false
     }]
   },
   {
-    "initial": "калмыки",
     "options": [{
-      "word": "калмыков",
+      "word": "назвалАсь",
       "correct": true
     }, {
-      "word": "калмык",
+      "word": "назвАлась",
       "correct": false
     }]
   },
   {
-    "initial": "арабы",
     "options": [{
-      "word": "арабов",
+      "word": "накренИтся",
       "correct": true
     }, {
-      "word": "араб",
+      "word": "накрЕнится",
       "correct": false
     }]
   },
   {
-    "initial": "киргизы",
     "options": [{
-      "word": "киргизов",
+      "word": "налилА",
       "correct": true
     }, {
-      "word": "киргиз",
+      "word": "налИла",
       "correct": false
     }]
   },
   {
-    "initial": "узбеки",
     "options": [{
-      "word": "узбеков",
+      "word": "нарвалА",
       "correct": true
     }, {
-      "word": "узбек",
+      "word": "нарвАла",
       "correct": false
     }]
   },
   {
-    "initial": "эскимосы",
     "options": [{
-      "word": "эскимосов",
+      "word": "начАть",
       "correct": true
     }, {
-      "word": "эскимос",
+      "word": "нАчать",
       "correct": false
     }]
   },
   {
-    "initial": "латыши",
     "options": [{
-      "word": "латышей",
+      "word": "нАчал",
       "correct": true
     }, {
-      "word": "латыш",
+      "word": "начАл",
       "correct": false
     }]
   },
   {
-    "initial": "ингуши",
     "options": [{
-      "word": "ингушей",
+      "word": "началА",
       "correct": true
     }, {
-      "word": "ингуш",
+      "word": "нАчала",
       "correct": false
     }]
   },
   {
-    "initial": "армяне",
     "options": [{
-      "word": "армян",
+      "word": "нАчали",
       "correct": true
     }, {
-      "word": "армяней",
+      "word": "начАли",
       "correct": false
     }]
   },
   {
-    "initial": "англичане",
     "options": [{
-      "word": "англичан",
+      "word": "обзвонИт",
       "correct": true
     }, {
-      "word": "англичанов",
+      "word": "обзвОнит",
       "correct": false
     }]
   },
   {
-    "initial": "болгары",
     "options": [{
-      "word": "болгар",
+      "word": "облегчИть",
       "correct": true
     }, {
-      "word": "болгаров",
+      "word": "облЕгчить",
       "correct": false
     }]
   },
   {
-    "initial": "башкиры",
     "options": [{
-      "word": "башкир",
+      "word": "облилАсь",
       "correct": true
     }, {
-      "word": "башкиров",
+      "word": "облИлась",
       "correct": false
     }]
   },
   {
-    "initial": "грузины",
     "options": [{
-      "word": "грузин",
+      "word": "обнялАсь",
       "correct": true
     }, {
-      "word": "грузинов",
+      "word": "обнЯлась",
       "correct": false
     }]
   },
   {
-    "initial": "осетины",
     "options": [{
-      "word": "осетин",
+      "word": "обогналА",
       "correct": true
     }, {
-      "word": "осетинов",
+      "word": "обогнАла",
       "correct": false
     }]
   },
   {
-    "initial": "румыны",
     "options": [{
-      "word": "румын",
+      "word": "ободралА",
       "correct": true
     }, {
-      "word": "румынов",
+      "word": "ободрАла",
       "correct": false
     }]
   },
   {
-    "initial": "татары",
     "options": [{
-      "word": "татар",
+      "word": "ободрИть",
       "correct": true
     }, {
-      "word": "татаров",
+      "word": "обОдрить",
       "correct": false
     }]
   },
   {
-    "initial": "цыгане",
     "options": [{
-      "word": "цыган",
+      "word": "ободрИт",
       "correct": true
     }, {
-      "word": "цыганей",
+      "word": "обОдрит",
       "correct": false
     }]
   },
   {
-    "initial": "турки",
     "options": [{
-      "word": "турок",
+      "word": "ободрИться",
       "correct": true
     }, {
-      "word": "турков",
+      "word": "обОдриться",
       "correct": false
     }]
   },
   {
-    "initial": "бедуины",
     "options": [{
-      "word": "бедуинов",
+      "word": "ободрИтся",
       "correct": true
     }, {
-      "word": "бедуин",
+      "word": "обОдрится",
       "correct": false
     }]
   },
   {
-    "initial": "акр",
     "options": [{
-      "word": "акров",
+      "word": "обострИть",
       "correct": true
     }, {
-      "word": "акр",
+      "word": "обОстрить",
       "correct": false
     }]
   },
   {
-    "initial": "грамм",
     "options": [{
-      "word": "граммов",
+      "word": "одолжИть",
       "correct": true
     }, {
-      "word": "грамм",
+      "word": "одОлжить",
       "correct": false
     }]
   },
   {
-    "initial": "гектар",
     "options": [{
-      "word": "гектаров",
+      "word": "одолжИт",
       "correct": true
     }, {
-      "word": "гектар",
+      "word": "одОлжит",
       "correct": false
     }]
   },
   {
-    "initial": "килограмм",
     "options": [{
-      "word": "килограммов",
+      "word": "озлОбить",
       "correct": true
     }, {
-      "word": "килограмм",
+      "word": "озлобИть",
       "correct": false
     }]
   },
   {
-    "initial": "ампер",
     "options": [{
-      "word": "ампер",
+      "word": "окружИт",
       "correct": true
     }, {
-      "word": "амперов",
+      "word": "окрУжит",
       "correct": false
     }]
   },
   {
-    "initial": "аршин",
     "options": [{
-      "word": "аршин",
+      "word": "опОшлить",
       "correct": true
     }, {
-      "word": "аршинов",
+      "word": "опошлИть",
       "correct": false
     }]
   },
   {
-    "initial": "ватт",
     "options": [{
-      "word": "ватт",
+      "word": "освЕдомиться",
       "correct": true
     }, {
-      "word": "ваттов",
+      "word": "осведомИться",
       "correct": false
     }]
   },
   {
-    "initial": "вольт",
     "options": [{
-      "word": "вольт",
+      "word": "освЕдомится",
       "correct": true
     }, {
-      "word": "вольтов",
+      "word": "осведомИтся",
       "correct": false
     }]
   },
   {
-    "initial": "радиан",
     "options": [{
-      "word": "радиан",
+      "word": "отбылА",
       "correct": true
     }, {
-      "word": "радианов",
+      "word": "отбЫла",
       "correct": false
     }]
   },
   {
-    "initial": "карат",
     "options": [{
-      "word": "карат",
+      "word": "отдалА",
       "correct": true
     }, {
-      "word": "каратов",
+      "word": "отдАла",
       "correct": false
     }]
   },
   {
-    "initial": "децибел",
     "options": [{
-      "word": "децибел",
+      "word": "откУпорить",
       "correct": true
     }, {
-      "word": "децибелов",
+      "word": "откупОрить",
       "correct": false
     }]
   },
   {
-    "initial": "бронхи",
     "options": [{
-      "word": "бронхов",
+      "word": "отозвалА",
       "correct": true
     }, {
-      "word": "бронх",
+      "word": "отозвАла",
       "correct": false
     }]
   },
   {
-    "initial": "гольфы",
     "options": [{
-      "word": "гольфов",
+      "word": "отозвалАсь",
       "correct": true
     }, {
-      "word": "гольф",
+      "word": "отозвАлась",
       "correct": false
     }]
   },
   {
-    "initial": "носки",
     "options": [{
-      "word": "носков",
+      "word": "перезвонИт",
       "correct": true
     }, {
-      "word": "носок",
+      "word": "перезвОнит",
       "correct": false
     }]
   },
   {
-    "initial": "бахилы",
     "options": [{
-      "word": "бахил",
+      "word": "перелилА",
       "correct": true
     }, {
-      "word": "бахилов",
+      "word": "перелИла",
       "correct": false
     }]
   },
   {
-    "initial": "ботинки",
     "options": [{
-      "word": "ботинок",
+      "word": "плодоносИть",
       "correct": true
     }, {
-      "word": "ботинков",
+      "word": "плодонОсить",
       "correct": false
     }]
   },
   {
-    "initial": "валенки",
     "options": [{
-      "word": "валенок",
+      "word": "пломбировАть",
       "correct": true
     }, {
-      "word": "валенков",
+      "word": "пломбИровать",
       "correct": false
     }]
   },
   {
-    "initial": "бакенбарды",
     "options": [{
-      "word": "бакенбард",
+      "word": "повторИт",
       "correct": true
     }, {
-      "word": "бакенбардов",
+      "word": "повтОрит",
       "correct": false
     }]
   },
   {
-    "initial": "кроссовки",
     "options": [{
-      "word": "кроссовок",
+      "word": "позвалА",
       "correct": true
     }, {
-      "word": "кроссовков",
+      "word": "позвАла",
       "correct": false
     }]
   },
   {
-    "initial": "плечи",
     "options": [{
-      "word": "плеч",
+      "word": "позвонИт",
       "correct": true
     }, {
-      "word": "плечей",
+      "word": "позвОнит",
       "correct": false
     }]
   },
   {
-    "initial": "погоны",
     "options": [{
-      "word": "погон",
+      "word": "полилА",
       "correct": true
     }, {
-      "word": "погонов",
+      "word": "полИла",
       "correct": false
     }]
   },
   {
-    "initial": "сапоги",
     "options": [{
-      "word": "сапог",
+      "word": "понялА",
       "correct": true
     }, {
-      "word": "сапогов",
+      "word": "понЯла.",
       "correct": false
     }]
   },
   {
-    "initial": "туфли",
     "options": [{
-      "word": "туфель",
+      "word": "послАла",
       "correct": true
     }, {
-      "word": "туфлей",
+      "word": "послалА",
       "correct": false
     }]
   },
   {
-    "initial": "чулки",
     "options": [{
-      "word": "чулок",
+      "word": "прибЫть",
       "correct": true
     }, {
-      "word": "чулков",
+      "word": "прИбыть",
       "correct": false
     }]
   },
   {
-    "initial": "матрац",
     "options": [{
-      "word": "матрацев",
+      "word": "прИбыл",
       "correct": true
     }, {
-      "word": "матрац",
+      "word": "прибЫл",
       "correct": false
     }]
   },
   {
-    "initial": "блюдце",
     "options": [{
-      "word": "блюдец",
+      "word": "прибылА",
       "correct": true
     }, {
-      "word": "блюдцев",
+      "word": "прИбыла",
       "correct": false
     }]
   },
   {
-    "initial": "полотенце",
     "options": [{
-      "word": "полотенец",
+      "word": "прИбыли",
       "correct": true
     }, {
-      "word": "полотенцев",
+      "word": "прибЫли",
       "correct": false
     }]
   },
   {
-    "initial": "мозоль",
     "options": [{
-      "word": "мозолей",
+      "word": "рвалА",
       "correct": true
     }, {
-      "word": "мозоль",
+      "word": "рвАла",
       "correct": false
     }]
   },
   {
-    "initial": "рояль",
     "options": [{
-      "word": "роялей",
+      "word": "сверлИт",
       "correct": true
     }, {
-      "word": "роялев",
+      "word": "свЕрлит",
       "correct": false
     }]
   },
   {
-    "initial": "скальпель",
     "options": [{
-      "word": "скальпелей",
+      "word": "снялА",
       "correct": true
     }, {
-      "word": "скальпелев",
+      "word": "снЯла",
       "correct": false
     }]
   },
   {
-    "initial": "вафля",
     "options": [{
-      "word": "вафель",
+      "word": "совралА",
       "correct": true
     }, {
-      "word": "вафлей",
+      "word": "соврАла",
       "correct": false
     }]
   },
   {
-    "initial": "сабля",
     "options": [{
-      "word": "сабель",
+      "word": "создалА",
       "correct": true
     }, {
-      "word": "саблей",
+      "word": "создАла",
       "correct": false
     }]
   },
   {
-    "initial": "цапля",
     "options": [{
-      "word": "цапель",
+      "word": "сорвалА",
       "correct": true
     }, {
-      "word": "цаплей",
+      "word": "сорвАла",
       "correct": false
     }]
   },
   {
-    "initial": "яблоня",
     "options": [{
-      "word": "яблонь",
+      "word": "сорИт",
       "correct": true
     }, {
-      "word": "яблоней",
+      "word": "сОрит",
       "correct": false
     }]
   },
   {
-    "initial": "богиня",
     "options": [{
-      "word": "богинь",
+      "word": "убралА",
       "correct": true
     }, {
-      "word": "богиней",
+      "word": "убрАла",
       "correct": false
     }]
   },
   {
-    "initial": "графиня",
     "options": [{
-      "word": "графинь",
+      "word": "углубИть",
       "correct": true
     }, {
-      "word": "графиней",
+      "word": "углУбить",
       "correct": false
     }]
   },
   {
-    "initial": "барышня",
     "options": [{
-      "word": "барышень",
+      "word": "укрепИт",
       "correct": true
     }, {
-      "word": "барышен",
+      "word": "укрЕпит",
       "correct": false
     }]
   },
   {
-    "initial": "боярышня",
     "options": [{
-      "word": "боярышень",
+      "word": "чЕрпать",
       "correct": true
     }, {
-      "word": "боярышен",
+      "word": "черпАть",
       "correct": false
     }]
   },
   {
-    "initial": "кухня",
     "options": [{
-      "word": "кухонь",
+      "word": "щемИт",
       "correct": true
     }, {
-      "word": "кухон",
+      "word": "щЕмит",
       "correct": false
     }]
   },
   {
-    "initial": "вишня",
     "options": [{
-      "word": "вишен",
+      "word": "щЕлкать",
       "correct": true
     }, {
-      "word": "вишень",
+      "word": "щелкАть",
       "correct": false
     }]
   },
   {
-    "initial": "черешня",
     "options": [{
-      "word": "черешен",
+      "word": "довезЕнный",
       "correct": true
     }, {
-      "word": "черешень",
+      "word": "довЕзенный",
       "correct": false
     }]
   },
   {
-    "initial": "басня",
     "options": [{
-      "word": "басен",
+      "word": "зАгнутый",
       "correct": true
     }, {
-      "word": "басней",
+      "word": "загнУтый",
       "correct": false
     }]
   },
   {
-    "initial": "башня",
     "options": [{
-      "word": "башен",
+      "word": "зАнятый",
       "correct": true
     }, {
-      "word": "башень",
+      "word": "занЯтый",
       "correct": false
     }]
   },
   {
-    "initial": "конюшня",
     "options": [{
-      "word": "конюшен",
+      "word": "занятА",
       "correct": true
     }, {
-      "word": "конюшень",
+      "word": "зАнята",
       "correct": false
     }]
   },
   {
-    "initial": "деревня",
     "options": [{
-      "word": "деревень",
+      "word": "зАпертый",
       "correct": true
     }, {
-      "word": "деревней",
+      "word": "запЕртый",
       "correct": false
     }]
   },
   {
-    "initial": "блюдце",
     "options": [{
-      "word": "блюдец",
+      "word": "заселЁнный",
       "correct": true
     }, {
-      "word": "блюдцев",
+      "word": "засЕленный",
       "correct": false
     }]
   },
   {
-    "initial": "зеркальце",
     "options": [{
-      "word": "зеркалец",
+      "word": "заселенА",
       "correct": true
     }, {
-      "word": "зеркальцев",
+      "word": "засЕлена",
       "correct": false
     }]
   },
   {
-    "initial": "колодец",
     "options": [{
-      "word": "колодцев",
+      "word": "кормЯщий",
       "correct": true
     }, {
-      "word": "колодец",
+      "word": "кОрмящий",
       "correct": false
     }]
   },
   {
-    "initial": "деревце",
     "options": [{
-      "word": "деревцев",
+      "word": "кровоточАщий",
       "correct": true
     }, {
-      "word": "деревец",
+      "word": "кровотОчащий",
       "correct": false
     }]
   },
   {
-    "initial": "оконце",
     "options": [{
-      "word": "оконцев",
+      "word": "нажИвший",
       "correct": true
     }, {
-      "word": "оконец",
+      "word": "нАживший",
       "correct": false
     }]
   },
   {
-    "initial": "кружевце",
     "options": [{
-      "word": "кружевцев",
+      "word": "налИвший",
       "correct": true
     }, {
-      "word": "кружевец",
+      "word": "нАливший",
       "correct": false
     }]
   },
   {
-    "initial": "болотце",
     "options": [{
-      "word": "болотцев",
+      "word": "нанЯвшийся",
       "correct": true
     }, {
-      "word": "болотец",
+      "word": "нАнявшийся",
       "correct": false
     }]
   },
   {
-    "initial": "солнце",
     "options": [{
-      "word": "солнц",
+      "word": "начАвший",
       "correct": true
     }, {
-      "word": "солнцев",
+      "word": "нАчавший",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "нАчатый",
+      "correct": true
+    }, {
+      "word": "начАтый",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "низведЕнный",
+      "correct": true
+    }, {
+      "word": "низвЕденный",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "облегчЕнный",
+      "correct": true
+    }, {
+      "word": "облЕгченный",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "ободрЕнный",
+      "correct": true
+    }, {
+      "word": "обОдреный",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "обострЕнный",
+      "correct": true
+    }, {
+      "word": "обОстренный",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "отключЕнный",
+      "correct": true
+    }, {
+      "word": "отклЮченный",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "повторЕнный",
+      "correct": true
+    }, {
+      "word": "повтОренный",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "поделЕнный",
+      "correct": true
+    }, {
+      "word": "подЕленный",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "понЯвший",
+      "correct": true
+    }, {
+      "word": "пОнявший",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "прИнятый",
+      "correct": true
+    }, {
+      "word": "принЯтый",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "принятА",
+      "correct": true
+    }, {
+      "word": "прИнята",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "приручЕнный",
+      "correct": true
+    }, {
+      "word": "прирУченный",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "прожИвший",
+      "correct": true
+    }, {
+      "word": "прОживший",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "снятА",
+      "correct": true
+    }, {
+      "word": "снЯта",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "сОгнутый",
+      "correct": true
+    }, {
+      "word": "согнУтый",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "углублЕнный",
+      "correct": true
+    }, {
+      "word": "углУбленный",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "закУпорив",
+      "correct": true
+    }, {
+      "word": "закупОрив",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "начАв",
+      "correct": true
+    }, {
+      "word": "нАчав",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "начАвшись",
+      "correct": true
+    }, {
+      "word": "нАчавшись",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "отдАв",
+      "correct": true
+    }, {
+      "word": "Отдав",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "поднЯв",
+      "correct": true
+    }, {
+      "word": "пОдняв",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "понЯв",
+      "correct": true
+    }, {
+      "word": "пОняв",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "прибЫв",
+      "correct": true
+    }, {
+      "word": "прИбыв",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "создАв",
+      "correct": true
+    }, {
+      "word": "сОздав",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "дОверху",
+      "correct": true
+    }, {
+      "word": "довЕрху",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "донЕльзя",
+      "correct": true
+    }, {
+      "word": "дОнельзя",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "дОнизу",
+      "correct": true
+    }, {
+      "word": "донИзу",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "дОсуха",
+      "correct": true
+    }, {
+      "word": "досУха",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "зАсветло",
+      "correct": true
+    }, {
+      "word": "засвЕтло",
+      "correct": false
+    }]
+  },
+  {
+    "options": [{
+      "word": "зАтемно",
+      "correct": true
+    }, {
+      "word": "затемнО",
       "correct": false
     }]
   }

@@ -5,6 +5,7 @@ const app = express();
 const cors = require('cors');
 const mainRouter = require('./controllers/main');
 const genitiveRouter = require('./controllers/genitive/genitive');
+const stressRouter = require('./controllers/stresses/stresses');
 const middleware = require('./utils/middleware');
 const logger = require('./utils/logger');
 const mongoose = require('mongoose');
@@ -31,6 +32,7 @@ app.use(express.json());
 app.use(middleware.requestLogger);
 app.use('/api/main', mainRouter);
 app.use('/api/genitive', genitiveRouter);
+app.use('/api/stress', stressRouter);
 app.use(middleware.unknownEndpoint);
 app.use(middleware.errorHandler);
 
